@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>AS400 Migration Specialist | Web Scraping Enthusiast | GUI Developer</p>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>A short bio about yourself.</p>
+        </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>AS400 Migration</li>
+                <li>Python Programming</li>
+                <li>Web Scraping</li>
+                <li>GUI Development</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <p>List and describe your key projects here.</p>
+        </section>
+    </div>
+    <footer>
+        <p>Contact: youremail@example.com</p>
+    </footer>
+</body>
+</html>
