@@ -28,11 +28,20 @@
         .section {
             margin: 20px 0;
         }
+        h2 {
+            color: #333;
+        }
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -42,26 +51,88 @@
         <p>AS400 Migration Specialist | Web Scraping Enthusiast | GUI Developer</p>
     </header>
     <div class="container">
+        
+        <!-- About Me Section -->
         <section class="section">
             <h2>About Me</h2>
-            <p>A short bio about yourself.</p>
+            <p>An experienced AS400 Migration Specialist with a strong background in web scraping and GUI development. Adept at delivering seamless system transitions, improving user experiences, and developing efficient web solutions.</p>
         </section>
+
+        <!-- Skills Section -->
         <section class="section">
             <h2>Skills</h2>
             <ul>
                 <li>AS400 Migration</li>
                 <li>Python Programming</li>
-                <li>Web Scraping</li>
-                <li>GUI Development</li>
+                <li>Web Scraping (BeautifulSoup, Selenium)</li>
+                <li>GUI Development (Tkinter, PyQt)</li>
+                <li>Database Management (SQL, DB2)</li>
+                <li>Version Control (Git, GitHub)</li>
             </ul>
         </section>
+
+        <!-- Experience Section -->
+        <section class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>AS400 Migration Specialist</strong> - XYZ Corp (2021 - Present)</li>
+                <ul>
+                    <li>Led the migration of legacy AS400 systems to modern platforms, ensuring data integrity and minimal downtime.</li>
+                    <li>Developed tools to automate migration tasks, reducing manual workload by 40%.</li>
+                    <li>Collaborated with cross-functional teams to optimize system performance post-migration.</li>
+                </ul>
+                <li><strong>Web Scraping Developer</strong> - ABC Tech (2019 - 2021)</li>
+                <ul>
+                    <li>Developed and maintained automated web scraping solutions for data extraction using Python (BeautifulSoup, Selenium).</li>
+                    <li>Scraped large-scale data from e-commerce sites, providing insights that improved client decision-making.</li>
+                    <li>Optimized scraping scripts, reducing runtime by 30% while ensuring data accuracy.</li>
+                </ul>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Science in Computer Science</strong> - University of Technology (2015 - 2019)</li>
+                <ul>
+                    <li>Graduated with Honors</li>
+                    <li>Specialized in Software Engineering and Database Management</li>
+                </ul>
+            </ul>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>Certified AS400 Professional</strong> - Global Certification Authority (2022)</li>
+                <li><strong>Python for Data Science and Web Development</strong> - Coursera (2020)</li>
+                <li><strong>SQL and Databases</strong> - Udemy (2021)</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
         <section class="section">
             <h2>Projects</h2>
-            <p>List and describe your key projects here.</p>
+            <ul>
+                <li><strong>AS400 Migration Tool</strong></li>
+                <ul>
+                    <li>Developed an automated tool for seamless migration from AS400 to modern systems, reducing project time by 50%.</li>
+                    <li><a href="https://github.com/yourusername/as400-migration-tool" target="_blank">View on GitHub</a></li>
+                </ul>
+                <li><strong>Web Scraping for Market Analysis</strong></li>
+                <ul>
+                    <li>Designed a web scraping solution to extract product pricing and availability from multiple e-commerce sites.</li>
+                    <li><a href="https://github.com/yourusername/web-scraping-market-analysis" target="_blank">View on GitHub</a></li>
+                </ul>
+            </ul>
         </section>
     </div>
+
     <footer>
         <p>Contact: youremail@example.com</p>
+        <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
     </footer>
 </body>
 </html>
